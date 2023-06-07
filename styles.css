@@ -66,7 +66,7 @@ textarea:hover {
 
 input:focus,
 textarea:focus {
-  border-color: red;
+  border-color: rgb(186, 5, 5);
 }
 
 .container {
@@ -102,7 +102,7 @@ textarea:focus {
 }
 
 .red {
-  color: red !important;
+  color: rgb(186, 5, 5) !important;
 }
 
 .link__hover-effect {
@@ -162,7 +162,7 @@ nav,
 }
 
 .dark-theme #personal-logo {
-  filter: none;
+  filter: invert(1);
 }
 
 .dark-theme .scroll__icon {
@@ -211,7 +211,7 @@ nav,
 }
 
 .social__link {
-  background-color: red;
+  background-color: rgb(186, 5, 5);
   color: white;
   padding: 6px;
   width: 32px;
@@ -293,9 +293,8 @@ nav {
 }
 
 #personal-logo {
-  width: 50px;
+  width: 60px;
   height: 50px;
-  filter: invert(1);
 }
 
 .nav__link--list {
@@ -424,8 +423,8 @@ nav {
 }
 
 .form__submit {
-  background: red;
-  border: 2px solid red;
+  background: rgb(186, 5, 5);
+  border: 2px solid rgb(186, 5, 5);
   color: white;
   font-weight: 700;
   width: 100%;
@@ -442,8 +441,8 @@ nav {
 }
 
 .form__submit:active {
-  border-color: red;
-  color: red;
+  border-color: rgb(186, 5, 5);
+  color: rgb(186, 5, 5);
 }
 
 .modal__overlay {
@@ -517,7 +516,9 @@ nav {
 
 .project__img {
   width: 100%;
+  height: 100%;
   transition: all 600ms ease;
+  margin-bottom: -5px;
 }
 
 .project__wrapper {
@@ -588,10 +589,9 @@ nav {
 */
 
 footer {
+  display: flex;
   position: relative;
   background-color: #242424;
-  display: flex;
-  padding: 6% 0;
 }
 
 .footer__row {
@@ -601,7 +601,8 @@ footer {
 }
 
 .footer__logo--img {
-  width: 70px;
+  width: 60px;
+  filter: invert(1);
 }
 
 .footer__social--list {

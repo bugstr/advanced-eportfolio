@@ -22,7 +22,7 @@
   <section id="landing-page" onmousemove="moveBackground(event)">
     <nav>
       <figure>
-        <img id="personal-logo" src="./assets/logo.svg" alt="">
+        <img id="personal-logo" src="./assets/logo.png" alt="">
       </figure>
       <ul class="nav__link--list">
         <li class="nav__link" onclick="toggleModal()">
@@ -60,23 +60,23 @@
         <h1 class="title">Hey</h1>
         <h1 class="title red">I'm Jungmo.</h1>
         <p class="header__para">
-          I'm a <b class="red">Frontend Software Engineer</b> with a strong passion for building web
+          I'm a <b class="red">Freelance Frontend Developer</b> with a strong passion for building web
           applications with great user
           experiences.
           <br>
           Here's a bit more <b class="red click" onclick="toggleModal()">about me.</b>
         </p>
         <div class="social__list">
-          <a href="https://www.linkedin.com/in/kjungmo/" target="_blank" class="social__link click">
+          <a href="https://www.linkedin.com/in/kangjungmo/" target="_blank" class="social__link click">
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
           <a href="https://github.com/bugstr" target="_blank" class="social__link click">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="./assets/David Bragg Resume.pdf" target="_blank" class="social__link click">
+          <a href="./assets/Jungmo Kang Resume.pdf" target="_blank" class="social__link click">
             <i class="fa-solid fa-file"></i>
           </a>
-        </div> 
+        </div>
       </div>
     </header>
     <a href="#">
@@ -92,14 +92,13 @@
         <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
         <h4 class="modal__subtitle modal__subtitle--about">Frontend Software Engineer.</h4>
         <p class="modal__para">
-          I'm a 21 year-old South Korean <b class="red">frontend software engineer</b> with a strong passion
+          I'm a 24 year-old South Korean <b class="red">frontend software engineer</b> with a strong passion
           for developing
           websites with great <b class="red">user experiences</b>.
           <br>
-          I currently work on extremely difficult engineering
-          problems and learn from a team consisting of some of the most <b class="red">talented</b> and <b
-            class="red">experienced</b> software
-          engineers every day.
+          I currently work on engineering <b class="red">scalable</b> and <b class="red">SEO friendly</b> websites and
+          creating front-end user experiences to fit modern design conventions.
+
         </p>
         <div class="modal__languages">
           <figure class="modal__language">
@@ -119,9 +118,8 @@
             <span class="language__name">JS</span>
           </figure>
           <figure class="modal__language">
-            <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
-              alt="">
-            <span class="language__name">HTML</span>
+            <img class="modal__language--img" src="./assets/React-icon.png" alt="">
+            <span class="language__name">React</span>
           </figure>
         </div>
       </div>
@@ -177,25 +175,26 @@
         <ul class="project__list">
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/blinker mockup.png" class="project__img" alt="">
+              <img src="./assets/recipe-book.png" class="project__img" alt="">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Car Sales Project
+                  Recipe Book
                 </h3>
                 <h4 class="project__description--subtitle">
                   HTML, CSS, JavaScript, React
                 </h4>
                 <p class="project__description--para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum vero omnis
-                  neque harum rem impedit, provident sint, numquam consectetur non esse, soluta maxime
-                  reiciendis accusantium repellat. Fugiat, laboriosam quasi.
+                  Fetched recipe data from Edamam Recipe API to implement a search system. Implemented pagination, fully
+                  functional pages, dynamic routing, and responsive/multi-platform support to enable website view on any
+                  platform or device.
                 </p>
                 <div class="project__description--links">
-                  <a href="#" class="project__description--links">
+                  <a href="https://github.com/bugstr/recipe-book" target="_blank" class="project__description--links">
                     <i class="fa-brands fa-github"></i>
                   </a>
-                  <a href="#" class="project__description--links">
+                  <a href="https://recipe-book-pi-seven.vercel.app/" target="_blank"
+                    class="project__description--links">
                     <i class="fas fa-link"></i>
                   </a>
                 </div>
@@ -204,25 +203,28 @@
           </li>
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/blinker mockup.png" class="project__img" alt="">
+              <img src="./assets/netflix-clone.png" class="project__img" alt="">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Car Sales Project
+                  Netflix Clone
                 </h3>
                 <h4 class="project__description--subtitle">
-                  HTML, CSS, JavaScript, React
+                  React, Typescript, Tailwind CSS
                 </h4>
                 <p class="project__description--para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum vero omnis
-                  neque harum rem impedit, provident sint, numquam consectetur non esse, soluta maxime
-                  reiciendis accusantium repellat. Fugiat, laboriosam quasi.
+                  Fetched data from TMDB API to allow users to view trailer and additional information about movies/TV
+                  shows. Utilized Firebase for storing user-generated movie lists and handling user authentication.
+                  Implemented CRUD functionality, allowing users to add movies to their own list.
+                  Integrated Stripe checkout for secure payment processing and subscription management.
+
                 </p>
                 <div class="project__description--links">
-                  <a href="#" class="project__description--links">
+                  <a href="https://github.com/bugstr/netflix-clone" target="_blank" class="project__description--links">
                     <i class="fa-brands fa-github"></i>
                   </a>
-                  <a href="#" class="project__description--links">
+                  <a href="https://netflix-clone-ruby-tau.vercel.app/" target="_blank"
+                    class="project__description--links">
                     <i class="fas fa-link"></i>
                   </a>
                 </div>
@@ -231,25 +233,27 @@
           </li>
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/blinker mockup.png" class="project__img" alt="">
+              <img src="./assets/tesla-clone.png" class="project__img" alt="">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Car Sales Project
+                  Tesla Clone
                 </h3>
                 <h4 class="project__description--subtitle">
-                  HTML, CSS, JavaScript, React
+                  HTML, CSS, JavaScript, React, Redux
                 </h4>
                 <p class="project__description--para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum vero omnis
-                  neque harum rem impedit, provident sint, numquam consectetur non esse, soluta maxime
-                  reiciendis accusantium repellat. Fugiat, laboriosam quasi.
+                  Developed a website clone replicating the style and layout of the official Tesla website.
+                  Implemented sign-in functionality using Firebase authentication to provide a secure and personalized
+                  user experience.
+                  Utilized Redux for efficient state management, enabling seamless data flow and consistent behavior.
+
                 </p>
                 <div class="project__description--links">
-                  <a href="#" class="project__description--links">
+                  <a href="https://github.com/bugstr/tesla-clone" class="project__description--links">
                     <i class="fa-brands fa-github"></i>
                   </a>
-                  <a href="#" class="project__description--links">
+                  <a href="https://tesla-clone-bugstr.vercel.app/" class="project__description--links">
                     <i class="fas fa-link"></i>
                   </a>
                 </div>
@@ -264,17 +268,17 @@
     <div class="container">
       <div class="row footer__row">
         <figure>
-          <img class="footer__logo--img" src="./assets/logo.svg" alt="">
+          <img class="footer__logo--img" src="./assets/logo.png" alt="">
         </figure>
         <div class="footer__social--list">
-          <a href="#" target="_blank" class="
+          <a href="https://github.com/bugstr" target="_blank" class="
                 footer__social--link 
                 link__hover-effect
                 link__hover-effect--white
                 ">
             GitHub
           </a>
-          <a href="#" target="_blank" class="
+          <a href="https://www.linkedin.com/in/kangjungmo/" target="_blank" class="
                 footer__social--link 
                 link__hover-effect
                 link__hover-effect--white
@@ -288,7 +292,7 @@
                 ">
             Contact
           </a>
-          <a href="./assets/David Bragg Resume.pdf" target="_blank" class="
+          <a href="./assets/Jungmo Kang Resume.pdf" target="_blank" class="
                 footer__social--link 
                 link__hover-effect
                 link__hover-effect--white
